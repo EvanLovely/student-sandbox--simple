@@ -56,15 +56,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.main-header {
+    border-bottom: dotted 1px #cccccc;
+    margin-bottom: 10px;
+}
 
+.main-nav li {
+    float: left;
+    margin-right: 5px;
+    list-style-type: none;
+}
 
-
-
-
-
-
-
-
+.main-nav a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-nav .active {
+    text-decoration: underline;
+}
 
 
 
