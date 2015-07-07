@@ -1,3 +1,8 @@
 $(document).ready(function () {
-    $('body').addClass('this-class-added-by-jQuery');
+
+  $('.js-nav-toggle').click(function() {
+    $('body').toggleClass('has-nav-open');
+  });
+
+  $('html').addClass('js');
 });

@@ -1,0 +1,30 @@
+.main-footer {
+  background: hsl(0, 0%, 93%);
+  padding: 7px;
+}
+
+@media only screen and (min-width : 768px) {
+  .main-footer__slot {
+    width: 49%;
+    float: left;
+  }
+  .main-footer__slot:nth-child(odd) {
+    float: right;
+  }
+  .main-footer__info {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width : 950px) {
+  .main-footer__slot {
+    width: 25%;
+    padding-left: 1%;
+  }
+  .main-footer__slot:nth-child(1) {
+    padding-left: 0;
+  }
+  .main-footer__slot:nth-child(odd) {
+    float: left;
+  }
+}

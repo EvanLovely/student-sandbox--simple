@@ -1,0 +1,31 @@
+.site-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-header,
+.main-content,
+.main-sidebar,
+.main-footer {
+  margin-bottom: 15px;
+}
+
+.main-content,
+.main-sidebar {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+@media only screen and (min-width : 768px) {
+  .main-content {
+    width: 75%;
+    float: left;
+  }
+  .main-sidebar {
+    width: 25%;
+    float: right;
+  }
+  .main-footer {
+    clear: both;
+  }
+}
