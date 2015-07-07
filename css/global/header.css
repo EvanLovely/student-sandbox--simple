@@ -29,7 +29,7 @@
   background-size: contain;
 }
 
-.has-nav-open .main-header__nav-toggle {
+body[data-nav-open='yes'] .main-header__nav-toggle {
   background-image: url("../../img/times.png");
 }
 
@@ -37,7 +37,7 @@
   display: none;
 }
 
-.has-nav-open .main-header__nav {
+body[data-nav-open='yes'] .main-header__nav {
   display: block;
 }
 
